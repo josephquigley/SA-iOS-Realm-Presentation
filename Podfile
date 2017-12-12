@@ -7,5 +7,6 @@ target 'Realm Examples' do
 
   pod 'RealmSwift', '~> 3.0.0'
   pod 'IGListKit', '~> 3.0'
+  pod 'SnapKit', '~> 4.0.0'
 
 end

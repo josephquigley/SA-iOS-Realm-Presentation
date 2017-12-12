@@ -8,24 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		0F254ABCB85EA1FB7458F837 /* Pods_Realm_Examples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F1ABCE5D4D131111B6CDC6 /* Pods_Realm_Examples.framework */; };
+		AF52E9561FE19FD10015585D /* HobbiesSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E9551FE19FD10015585D /* HobbiesSectionController.swift */; };
+		AF52E9581FE1A09D0015585D /* HobbyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E9571FE1A09D0015585D /* HobbyCell.swift */; };
+		AF52E95A1FE1DBA80015585D /* Hobby+ListDiffable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52E9591FE1DBA80015585D /* Hobby+ListDiffable.swift */; };
 		AF672F781FDE43440058A254 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF672F771FDE43440058A254 /* AppDelegate.swift */; };
-		AF672F7A1FDE43440058A254 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF672F791FDE43440058A254 /* ViewController.swift */; };
+		AF672F7A1FDE43440058A254 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF672F791FDE43440058A254 /* ListViewController.swift */; };
 		AF672F7D1FDE43440058A254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF672F7B1FDE43440058A254 /* Main.storyboard */; };
 		AF672F7F1FDE43440058A254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF672F7E1FDE43440058A254 /* Assets.xcassets */; };
 		AF672F821FDE43440058A254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF672F801FDE43440058A254 /* LaunchScreen.storyboard */; };
+		AF6AC2A11FDF7C7B0025FE81 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6AC2A01FDF7C7B0025FE81 /* User.swift */; };
+		AF6AC2A51FDF7CFD0025FE81 /* Hobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6AC2A41FDF7CFD0025FE81 /* Hobby.swift */; };
+		AF6AC2A71FDF80B70025FE81 /* User+ListDiffable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6AC2A61FDF80B70025FE81 /* User+ListDiffable.swift */; };
+		AF6AC2A91FDF82370025FE81 /* ListDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6AC2A81FDF82370025FE81 /* ListDataController.swift */; };
+		AF6AC2AB1FDF84160025FE81 /* EmptyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6AC2AA1FDF84160025FE81 /* EmptyListViewController.swift */; };
+		AF6AC2AD1FDF876E0025FE81 /* UsersSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6AC2AC1FDF876E0025FE81 /* UsersSectionController.swift */; };
+		AF6AC2B01FDF8A300025FE81 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6AC2AF1FDF8A300025FE81 /* UserCell.swift */; };
+		AF6AC2B21FDF9CD30025FE81 /* UserEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6AC2B11FDF9CD30025FE81 /* UserEditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		187324BA20BC7326BC6FA7EC /* Pods-Realm Examples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm Examples.release.xcconfig"; path = "Pods/Target Support Files/Pods-Realm Examples/Pods-Realm Examples.release.xcconfig"; sourceTree = "<group>"; };
 		68F1ABCE5D4D131111B6CDC6 /* Pods_Realm_Examples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realm_Examples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C52D0EACBC67B30B1619FCC /* Pods-Realm Examples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm Examples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Realm Examples/Pods-Realm Examples.debug.xcconfig"; sourceTree = "<group>"; };
+		AF52E9551FE19FD10015585D /* HobbiesSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbiesSectionController.swift; sourceTree = "<group>"; };
+		AF52E9571FE1A09D0015585D /* HobbyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyCell.swift; sourceTree = "<group>"; };
+		AF52E9591FE1DBA80015585D /* Hobby+ListDiffable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hobby+ListDiffable.swift"; sourceTree = "<group>"; };
 		AF672F741FDE43440058A254 /* Realm Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Realm Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF672F771FDE43440058A254 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF672F791FDE43440058A254 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF672F791FDE43440058A254 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		AF672F7C1FDE43440058A254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF672F7E1FDE43440058A254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF672F811FDE43440058A254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF672F831FDE43440058A254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6AC2A01FDF7C7B0025FE81 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AF6AC2A41FDF7CFD0025FE81 /* Hobby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hobby.swift; sourceTree = "<group>"; };
+		AF6AC2A61FDF80B70025FE81 /* User+ListDiffable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+ListDiffable.swift"; sourceTree = "<group>"; };
+		AF6AC2A81FDF82370025FE81 /* ListDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDataController.swift; sourceTree = "<group>"; };
+		AF6AC2AA1FDF84160025FE81 /* EmptyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListViewController.swift; sourceTree = "<group>"; };
+		AF6AC2AC1FDF876E0025FE81 /* UsersSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersSectionController.swift; sourceTree = "<group>"; };
+		AF6AC2AF1FDF8A300025FE81 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		AF6AC2B11FDF9CD30025FE81 /* UserEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,14 +83,41 @@
 		AF672F761FDE43440058A254 /* Realm Examples */ = {
 			isa = PBXGroup;
 			children = (
+				AF6AC2AE1FDF89E50025FE81 /* Cells */,
+				AF6AC29F1FDF7C4C0025FE81 /* Models */,
 				AF672F771FDE43440058A254 /* AppDelegate.swift */,
-				AF672F791FDE43440058A254 /* ViewController.swift */,
+				AF672F791FDE43440058A254 /* ListViewController.swift */,
 				AF672F7B1FDE43440058A254 /* Main.storyboard */,
 				AF672F7E1FDE43440058A254 /* Assets.xcassets */,
 				AF672F801FDE43440058A254 /* LaunchScreen.storyboard */,
 				AF672F831FDE43440058A254 /* Info.plist */,
+				AF6AC2A81FDF82370025FE81 /* ListDataController.swift */,
+				AF6AC2AA1FDF84160025FE81 /* EmptyListViewController.swift */,
+				AF6AC2AC1FDF876E0025FE81 /* UsersSectionController.swift */,
+				AF6AC2B11FDF9CD30025FE81 /* UserEditViewController.swift */,
+				AF52E9551FE19FD10015585D /* HobbiesSectionController.swift */,
 			);
 			path = "Realm Examples";
+			sourceTree = "<group>";
+		};
+		AF6AC29F1FDF7C4C0025FE81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF6AC2A01FDF7C7B0025FE81 /* User.swift */,
+				AF6AC2A41FDF7CFD0025FE81 /* Hobby.swift */,
+				AF52E9591FE1DBA80015585D /* Hobby+ListDiffable.swift */,
+				AF6AC2A61FDF80B70025FE81 /* User+ListDiffable.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF6AC2AE1FDF89E50025FE81 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AF6AC2AF1FDF8A300025FE81 /* UserCell.swift */,
+				AF52E9571FE1A09D0015585D /* HobbyCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		C82DE5F9657853FC4098B080 /* Pods */ = {
@@ -211,8 +260,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF672F7A1FDE43440058A254 /* ViewController.swift in Sources */,
+				AF672F7A1FDE43440058A254 /* ListViewController.swift in Sources */,
 				AF672F781FDE43440058A254 /* AppDelegate.swift in Sources */,
+				AF6AC2AD1FDF876E0025FE81 /* UsersSectionController.swift in Sources */,
+				AF6AC2A91FDF82370025FE81 /* ListDataController.swift in Sources */,
+				AF6AC2A51FDF7CFD0025FE81 /* Hobby.swift in Sources */,
+				AF52E95A1FE1DBA80015585D /* Hobby+ListDiffable.swift in Sources */,
+				AF6AC2B21FDF9CD30025FE81 /* UserEditViewController.swift in Sources */,
+				AF52E9581FE1A09D0015585D /* HobbyCell.swift in Sources */,
+				AF6AC2B01FDF8A300025FE81 /* UserCell.swift in Sources */,
+				AF6AC2AB1FDF84160025FE81 /* EmptyListViewController.swift in Sources */,
+				AF6AC2A71FDF80B70025FE81 /* User+ListDiffable.swift in Sources */,
+				AF6AC2A11FDF7C7B0025FE81 /* User.swift in Sources */,
+				AF52E9561FE19FD10015585D /* HobbiesSectionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
