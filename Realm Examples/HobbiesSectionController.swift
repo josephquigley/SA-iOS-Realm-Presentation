@@ -19,7 +19,7 @@ class HobbiesSectionController: ListSectionController, UIViewControllerTransitio
     }
     
     override func sizeForItem(at index: Int) -> CGSize {
-        return CGSize(width: min(collectionContext!.containerSize.width, 300), height: min(collectionContext!.containerSize.height, 30))
+        return CGSize(width: min(collectionContext!.containerSize.width, 300), height: min(collectionContext!.containerSize.height, 45))
     }
     
     override func cellForItem(at index: Int) -> UICollectionViewCell {
@@ -54,7 +54,8 @@ class HobbiesSectionController: ListSectionController, UIViewControllerTransitio
             return
         }
         
-        //Unable to parse the format string "SUBQUERY(hobbies, $hobby, $hobby.name == 'Biking')"
+        //Be sure to add the .@count > 0 to return a bool for the predicate to resolve to,
+        //otherwise runtime crashes will occur 😬
         filterDataAction?(NSPredicate(format: "SUBQUERY(hobbies, $hobby, $hobby.name == '\(hobby.name)') .@count > 0"))
     }
 }

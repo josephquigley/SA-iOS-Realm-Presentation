@@ -67,7 +67,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UiT-ap-bz0">
-                                            <rect key="frame" x="131" y="8" width="42" height="21"/>
+                                            <rect key="frame" x="131" y="8" width="42" height="30"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -77,6 +77,7 @@
                                 <color key="backgroundColor" red="0.87845373149999995" green="0.87843716140000005" blue="0.87844836709999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstItem="UiT-ap-bz0" firstAttribute="centerX" secondItem="Vi9-Ja-hva" secondAttribute="centerX" id="8fW-Kj-gJH"/>
+                                    <constraint firstAttribute="bottom" secondItem="UiT-ap-bz0" secondAttribute="bottom" id="Ng2-Bp-Ugn"/>
                                     <constraint firstItem="UiT-ap-bz0" firstAttribute="top" secondItem="Vi9-Ja-hva" secondAttribute="topMargin" id="mOg-fH-P2F"/>
                                 </constraints>
                                 <size key="customSize" width="304" height="38"/>

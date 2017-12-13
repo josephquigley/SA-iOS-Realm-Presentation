@@ -46,9 +46,14 @@ final internal class ListDataController: NSObject, ListAdapterDataSource {
         
         adapter = ListAdapter(updater: updater, viewController: viewController)
         adapter.collectionView = collectionView
+        
+        //Initial queries
         usersResults = realm.objects(User.self)
         hobbiesResults = realm.objects(Hobby.self)
         super.init()
+        
+        //Assign observers to tokens so that they stay in memory as long as
+        //the data controller exists, otherwise no observations would happen
         resultsToken = usersResults.observe(usersObserveHandler)
         hobbiesResultsToken = hobbiesResults.observe(hobbiesObserveHandler)
         self.filterPredicate = filterPredicate
@@ -57,6 +62,9 @@ final internal class ListDataController: NSObject, ListAdapterDataSource {
     }
     
     private func performFilter(_ predicate: NSPredicate?) {
+        //Reset the Realm "query" so that we don't filter on top of a filter
+        //which would have the same effect as running one large query with
+        //multiple AND operations
         resetResults()
         filterPredicate = predicate
     }
@@ -77,6 +85,7 @@ final internal class ListDataController: NSObject, ListAdapterDataSource {
     }
     
     func objects(for listAdapter: ListAdapter) -> [ListDiffable] {
+        //Mix and match model data types in the list
         return (users as [ListDiffable]) + (hobbies as [ListDiffable])
     }
     
